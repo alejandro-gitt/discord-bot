@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 const weather = require('weather-js')
 
 const client = new Discord.Client()
-client.login('Nzc2MTgxMzYxMTM1ODQ1NDM2.X6xJOQ.5hWd8cqUnEzKYn0_iiEemCpcDuM')
+client.login('')
 client.on('ready', readyDiscord)
 
 function readyDiscord() {
@@ -37,8 +37,8 @@ Currently working and useful:
 */
 //
 /////////////////////////////////////////
-var generalId = '769290387927597058'
-var lbda = "769290387927597056"
+var generalId = ''
+var lbda = ""
 
 client.on('message', handleMessage)
 
